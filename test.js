@@ -1,3 +1,11 @@
+module( "Qunit Boilerplate", {
+  setup: function() {
+    // prepare something for all following tests
+  },
+  teardown: function() {
+    // clean up after each test
+  }
+});
 
 test('basic test', function() {
   expect(1);
